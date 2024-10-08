@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <title>Mundo Criativo</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img id="nav_logo" src="../src/images/logo.png" alt="Logo da Mundo Criativo">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item ">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+   
+    
+        <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title"> Mundo <span>Criativo</span>
+                </h1>
+
+                <p class="description">
+                    Soluções para sua empresa se destacar no mundo digital!
+                </p>
+
+                <div id="cta_buttons">
+
+                    <a href="tel:+555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (16)98765-4321
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <p>Entre em contato por telefone ou redes sociais!</p>
+            </div>
+            <div id="banner">
+                <img src="images/laptop.png" onmouseover="this.src='images/laptop2.png'" onmouseout="this.src='images/laptop.png'" alt="imagem de um laptop" class="image">
+                <div class="circulo"></div>
+                
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">Serviços que a Mundo Criativo oferece!</h3>
+
+            <div id="servicos">
+                <div class="servico">
+                    <img src="images/site.png" class="servico-image" alt="">
+                    <h3 class="servico-title">
+                        Sites
+                    </h3>
+    
+                    <span class="servico-description">
+                        Criação de sites para que sua empresa tenha uma maior visibilidade!
+                    </span>
+                </div>
+    
+                <div class="servico">
+                    <img src="images/arte.png" class="servico-image" alt="">
+                    <h3 class="servico-title">
+                        Artes para Mídias Sociais
+                    </h3>
+    
+                    <span class="servico-description">
+                        Uma forma de alavancar mais seu negócio é ser visto, com as redes sociais essa alvancagem acontece de forma mais rápida!
+                    </span>
+                </div>
+    
+                <div class="servico">
+                    <img src="images/graf.png" class="servico-image" alt="">
+                    <h3 class="servico-title">
+                        Serviços Gráficos
+                    </h3>
+    
+                    <span class="servico-description">
+                        Criação de materiais gráficos como cartões de visita, banners...
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="images/lampada1.png" id="lamp" alt="Logo Mundo Criativo">
+            
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós:
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="images/people1.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                Usuario
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui ad illum veritatis harum, modi temporibus est voluptatem natus blanditiis odit eum quas, tenetur unde quis cumque ducimus aliquid mollitia?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="images/people2.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                Usuario
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui ad illum veritatis harum, modi temporibus est voluptatem natus blanditiis odit eum quas, tenetur unde quis cumque ducimus aliquid mollitia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section> 
+        
+        </main>
+
+
+        <div>
+            <button id="btnTopo" class="btn-topo">Inicio</button>
+        </div>
+      
+
+    
+
+    <footer>
+        <div id="footer_items">
+            <span id="copy">
+                &copy 2024
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
